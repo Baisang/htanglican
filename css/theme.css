@@ -1,0 +1,904 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 3.125em;
+  color: #5a5a5a;
+  font-size: 12px;
+  margin-bottom: 3.75em;
+  padding-top: 4em;
+  font-family: 'EB Garamond', serif;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+/* Flip around the padding for proper display in narrow viewports */
+
+.navbar-wrapper > .container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper .navbar .container-fluid {
+  width: auto;
+}
+
+.pastor {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/meetourpastor_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/meetourpastor_banner.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  height: 45em;
+}
+
+.beliefs {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../images/beliefs_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.7)
+    ),
+  url("../images/beliefs_banner.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  height: 45em;
+}
+
+.mission {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/vision_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.4)
+    ),
+  url("../images/vision_banner.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  height: 45em;  
+}
+
+.affiliations {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("../images/affiliationsbanner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.2)
+    ),
+  url("../images/affiliationsbanner.jpg");
+  background-size: cover;
+  background-position: 0% 100%;
+  height: 45em; 
+}
+
+.staff {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/staff_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/staff_banner.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  height: 45em;
+}
+
+.story {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("../images/ourstory_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.35)
+    ),
+  url("../images/ourstory_banner.jpg");
+  background-size: cover;
+  background-position: 0% 25%;
+  height: 45em;
+}
+
+.anglicanism {
+    background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/anglicanism_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/anglicanism_banner.jpg");
+  background-size: cover;
+  background-position: 0% 30%;
+  height: 45em;
+}
+
+.calendar {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/calendar_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/calendar_banner.jpg");
+  background-size: cover;
+  background-position: 0% 30%;
+  height: 45em;
+}
+
+.sermons {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/sermons_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/sermons_banner.jpg");
+  background-size: cover;
+  background-position: 0% 30%;
+  height: 45em;
+}
+
+.readings {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/readings_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/readings_banner.jpg");
+  background-size: cover;
+  background-position: 0% 30%;
+  height: 45em;  
+}
+
+.ministries {
+    background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/ministries_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/ministries_banner.jpg");
+  background-size: cover;
+  background-position: 0% 30%;
+  height: 45em;  
+}
+
+.contact {
+    background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/contact_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/contact_banner.jpg");
+  background-size: cover;
+  background-position: 0% 30%;
+  height: 45em;    
+}
+
+.give {
+    background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/give_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/give_banner.jpg");
+  background-size: cover;
+  background-position: 0% 90%;
+  height: 45em;    
+}
+
+.explore {
+    background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)), url("../images/explore_banner.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.45)
+    ),
+  url("../images/explore_banner.jpg");
+  background-size: cover;
+  background-position: 0% 90%;
+  height: 45em;   
+}
+
+@media (max-width: 767px) {
+  .beliefs {
+    background-position: 25% 55%;
+    height: 35em;
+  }
+  .staff {
+    background-position: 50% 50%;
+    height: 35em;
+  }
+  .pastor {
+    background-position: 50% 50%;
+    height: 35em;
+  }
+  .story {
+    background-position: 50% 50%;
+    height: 35em;
+  }
+  .mission {
+    background-position: 50% 50%;
+    height: 35em;
+  }
+  .affiliations {
+    background-position: 60% 80%;
+    height: 35em;
+  }
+  .sermons {
+    background-position: 75% 30%;
+    height: 35em;
+  }
+  .readings {
+    background-position: 50% 30%;
+    height: 35em;
+  }
+  .ministries {
+    background-position: 50% 30%;
+    height: 35em;
+  }
+  .calendar {
+    height: 35em;
+  }
+  .anglicanism {
+    height: 35em;
+  }
+  .contact {
+    height: 35em;
+  }
+  .give {
+    height: 35em;
+  }
+  .explore {
+    height: 35em;
+  }
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.navbar {
+  background: white;
+  font-size: 1.9em;
+  color: white;
+  font-family: 'Josefin Sans';
+}
+
+body.modal-open {
+  padding-right: 0;
+  overflow-y: hidden;
+}
+
+.thirty-nine li {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+.thirty-nine span {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.homilies li {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.canonical li {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color:#253c97;
+  vertical-align: middle;
+  font-size: .9em;
+  font-family: 'Josefin Sans';
+  margin-top: .5em;
+}
+
+.navbar-nav {
+  height: 6.5em;
+}
+
+.dropdown-menu {
+  background-color: white;
+}
+
+.glyphs {
+  color: #253c97;
+  font-size: 5em;
+}
+
+.dropdown-menu {
+  width: 15em;
+  font-size: 1em;
+}
+
+.navbar-brand {
+  color:white;
+}
+
+.navbar-collapse.collapse {
+  font-size:.9em;
+}
+
+.navbar-collapse.collapse.in {
+  height: 13em;
+  font-size:.9em;
+}
+
+.navbar-collapse.collapsing {
+  height: 13em;
+  font-size:.9em;
+}
+
+.footer h2, h7 {
+  font-family: 'Josefin Sans';
+}
+
+.text-footer {
+  color:rgb(129, 129, 129);
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.head-footer {
+  text-align:center;
+  font-size: 4em;
+}
+
+.icon-bar {
+  background-color: white;
+}
+
+.container-footer {
+    background-color: rgb(38, 38, 38); 
+    color:white;
+}
+
+.btn.btn-default {
+  font-size: .9em;
+}
+
+@media (min-width: 768px) { 
+    .twoRow .navbar-collapse {
+        clear: left;
+    }
+}
+
+.navbar-toggle {
+  margin: 1.5em .5em;
+}
+
+.nav-logo {
+  margin-top: -.9em;
+  margin-left: .5em;
+  left: 0;
+  width: 7em;
+  height: auto;
+}
+
+
+.navbar .nav-justified > li > a:hover, .navbar .nav-justified > li > a:focus, .navbar .nav-justified .dropdown-menu > li > a:hover, .navbar .nav-justified .dropdown-menu > li > a:focus {
+
+    background-color: #EEEEEE;
+    color: #000099;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+
+.carousel {
+  height: 46em;
+  margin-top: 6.5em;
+  margin-bottom: 6em;
+}
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  z-index: 10;
+  font-size: 1.1em;
+  font-family: 'Josefin Sans';
+}
+
+.carousel-caption > h1 {
+  font-size: 7em;
+  font-family: 'Josefin Sans';
+  text-shadow: 1px 1px 10px #000000;
+}
+
+.carousel-caption > h2 {
+  font-size: 5.5em;
+  font-family: 'Josefin Sans';
+  text-shadow: 1px 1px 10px #000000;
+}
+
+.light-caption {
+  font-size: 2.5em;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  text-shadow: 1px 1px 10px #000000;
+}
+
+.sub-caption {
+  font-size: 2em;
+  padding: .75em;
+}
+
+
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+  height: 46em;
+  background-color: #777;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 46em;
+}
+
+.first-slide {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/welcomecloudy.jpg');
+  background-size: cover;
+  height: 46em;
+  background-position: 25% 50%;
+}
+
+.second-slide {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/chalace_clouded.jpg');
+  background-size: cover;
+  height: 46em;
+  background-position: 0% 55%;
+}
+
+.third-slide {
+  background: url('../images/Clevelandsk.jpg');
+  background-size: cover;
+  height: 46em;
+}
+
+.darken3 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/Clevelandsk.jpg');
+}
+
+.fourth-image {
+  background-image: 
+  -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("../images/stockphoto2.jpg");
+  background-image: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.6)
+    ),
+  url("../images/stockphoto2.jpg");
+  background-size: 100% auto;
+  background-attachment: fixed;
+  display: block;
+}
+
+.fourth-image > h1 {
+  font-size: 4em;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 6.5em;
+  padding-bottom: 1.25em;
+  margin: .5em;
+  font-family: 'Josefin Sans';
+  text-shadow: 1px 1px 10px #000000;
+}
+
+@media (max-width: 767px) {
+  .fourth-image {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .fourth-image > h1 {
+    font-size: 3em;
+    padding-top: 4.75em;
+    margin: .25em;
+  }
+  .first-slide {
+    background-position: 50% 50%;
+  }
+  .second-slide {
+    background-position: 40% 55%;
+  }
+  .third-slide {
+    background-position: 50% 20%;
+  }
+}
+
+.btn.btn-lg.btn-primary {
+  background-color: transparent;
+  border-color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .nav-logo {
+    width: 4em;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .navbar-nav {
+    height: 3.5em;
+  }
+  .navbar-wrapper {
+    height: 7.5em;
+  }
+  .nav.navbar.navbar-static-top {
+    height: 7.5em;
+  }
+  .carousel {
+    height: 40em;
+    margin-top: 4em;
+    margin-bottom: 6em;
+    text-align: center;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 10;
+    font-size: 1.1em;
+    font-family: 'Josefin Sans';
+    text-align: center;
+  }
+
+  .carousel-caption > h1 {
+    font-size: 2.75em;
+    font-family: 'Josefin Sans';
+    text-shadow: 1px 1px 10px #000000;
+    text-align: center;
+  }
+
+  .carousel-caption > h2 {
+    font-size: 2em;
+    font-family: 'Josefin Sans';
+    text-shadow: 1px 1px 10px #000000;
+    text-align: center;
+  }
+
+  .light-caption {
+    font-size: 1em;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    text-shadow: 1px 1px 10px #000000;
+  }
+
+  .sub-caption {
+    font-size: 1.2em;
+    padding: .75em;
+  }
+
+
+
+  /* Declare heights because of positioning of img element */
+
+  .carousel .item {
+    height: 40em;
+    background-color: #777;
+  }
+
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .carousel-caption {
+    z-index: 10;
+    font-size: 1.1em;
+    font-family: 'Josefin Sans';
+    text-align: center;
+  }
+
+  .carousel-caption > h1 {
+    font-size: 5em;
+    font-family: 'Josefin Sans';
+    text-shadow: 1px 1px 10px #000000;
+    text-align: center;
+  }
+
+  .carousel-caption > h2 {
+    font-size: 4em;
+    font-family: 'Josefin Sans';
+    text-shadow: 1px 1px 10px #000000;
+    text-align: center;
+  }
+
+  .light-caption {
+    font-size: 2em;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    text-shadow: 1px 1px 10px #000000;
+  }
+
+  .sub-caption {
+    font-size: 1.4em;
+    padding: .75em;
+  }
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+
+.marketing {
+  padding-bottom:6em;
+  padding-top:2em;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.25em;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.marketing h2 {
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .625em;
+  margin-left: .625em;
+  font-size: 1.2em;
+}
+
+.market-btn-text {
+  font-size: 1.5em;
+}
+
+@media (max-width: 767px) {
+  .marketing .col-lg-4 {
+    margin-bottom: 1.25em;
+    text-align: center;
+    font-size: 1.25em;
+  }
+
+.marketing h2 {
+    font-weight: normal;
+    font-size: 2em;
+  }
+
+.marketing .col-lg-4 p {
+    margin-right: .625em;
+    margin-left: .625em;
+    font-size: 1em;
+  }
+
+.market-btn-text {
+    font-size: 1.2em;
+  }
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 4em 0;
+  /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+
+.featurette-heading {
+  font-size: 2.4em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.0425em;
+}
+
+.featurette-image1 {
+  width:32.125em;
+  vertical-align: middle;
+  padding-top: 5em;
+}
+
+.featurette-image2 {
+  width:32.125em;
+  padding-top: 8em;
+}
+
+.featurette-image3 {
+  width:32.125em;
+  padding-top: 8em;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width:62em) {
+  /* Navbar positioning foo */
+  
+  /* Bump up size of carousel content */
+  
+  .carousel-caption {
+    vertical-align: middle;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 1.25em;
+    font-size: 1.3125em;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 3.125em;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 2.9em;
+  }
+}
+
+.col-pad-top-3 {
+  padding-top: 3em;
+}
+
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 3.75em;
+  background-color: rgb(38, 38, 38); 
+  padding-top:3.125em;
+}
+
+.row-footer {
+  padding-bottom:2.5em;
+  max-width: 75%;
+  margin: 0 12.5%;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-.25em;
+
+    vertical-align: top;
+}
+
+
+.super-heading {
+  color:white; 
+  text-shadow: 1px 1px 10px #000000; 
+  padding-top: 7em; 
+  text-align:center;
+  font-size: 5em;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+}
+
+
+.about-sermon {
+  background-color: #242728;
+  width: 100%;
+  height: 30.125em;
+  color: #CCCCCC;
+  margin: 1em, 1em, 1em, 1em;
+  padding: 1em 1em 1em 1em;
+}
+
+
+.pastor-image {
+  display: flex; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%; 
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .super-heading {
+    font-size: 3em;
+    padding-top:8.5em;
+  }
+  .pastor-image {
+    width: 90%; 
+    height: auto;
+  }
+}
+
+.larger-text {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.container-pad-5 {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.sub-heading {
+  text-align: left;
+  font-weight: bold;
+}
+
+.navbar .brand {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  float: none;
+}
+
+.affil-image {
+  width: 60%;
+  margin: 0% 20%
+}
+
+.anglic-image {
+  width: 60%;
+  margin: 7.5% 20%
+}
+
+
+/** {
+  outline: 1px red solid;
+}*/
