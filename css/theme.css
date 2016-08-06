@@ -315,6 +315,10 @@ body {
   .explore {
     height: 35em;
   }
+  .alpha {
+    height: 35em;
+    background-position: 55% 0%;
+  }
 }
 
 .text-bold {
