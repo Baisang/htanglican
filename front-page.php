@@ -5,7 +5,7 @@
 
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-     <div class="first-slide">
+     <div class="first-slide" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('<?php bloginfo('template_directory');?>/images/welcomecloudy.jpg');">
         <div class="carousel-caption">
           <div class="light-caption">WELCOME TO</div>
           <h1>CHURCH OF THE HOLY TRINITY</h1>
@@ -15,7 +15,7 @@
     </div>
   </div>
   <div class="item">
-    <div class="second-slide">
+    <div class="second-slide" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('<?php bloginfo('template_directory');?>/images/chalace_clouded.jpg');">
       <div class="container">
         <div class="carousel-caption">
           <h1>WHAT IS ANGLICANISM?</h1>
@@ -26,7 +26,7 @@
     </div>
   </div>
   <div class="item">
-    <div class="third-slide darken3">
+    <div class="third-slide" style="  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('<?php bloginfo('template_directory');?>/images/Clevelandsk.jpg');">
       <div class="container">
         <div class="carousel-caption">
           <h2> AN ANGLICAN CHURCH IN GREATER CLEVELAND?</h2>
@@ -131,7 +131,13 @@
 
 </div>
 
-<div id="fourth-image" class="fourth-image"
+<div id="fourth-image" class="fourth-image" style="background-image:
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.6)
+    ),
+  url('<?php bloginfo('template_directory');?>/images/stockphoto2.jpg');"
   data-center-top="background-position: 0% 90%"
   data-center="background-position: 0% 60%;"
   data-top-bottom="background-position: 0% 40%;"
@@ -150,7 +156,7 @@
     <p class="lead">Like the early Church, we aspire to regularly gather for fellowship, support, and worship. We envision forging strong spiritual friendships in community groups to sustain us in the changes and chances of life. Our desire is that we would be a community in which our pastor knows his sheep and walks with them as we do life together—not just on Sundays.</p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image img-responsive center-block featurette-image1" src="images/christiancommunity.jpg" alt="Christian Community">
+    <img class="featurette-image img-responsive center-block featurette-image1" src="<?php bloginfo('template_directory');?>/images/christiancommunity.jpg" alt="Christian Community">
   </div>
 </div>
 
@@ -162,7 +168,7 @@
     <p class="lead">Like the early Church, we aspire to be formed as deep, devoted disciples of Jesus Christ. We don’t want to just be Sunday morning Christians—our desire is to see all areas of our lives submitted to the Lordship of Jesus Christ. We envision our community being formed in the faith handed down to us as well as being formed in key spiritual disciplines that will help us to grow into deeper disciples of Jesus Christ.</p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image img-responsive center-block featurette-image2" src="images/father_sean.jpg" alt="Deep Discipleship">
+    <img class="featurette-image img-responsive center-block featurette-image2" src="<?php bloginfo('template_directory');?>/images/father_sean.jpg" alt="Deep Discipleship">
   </div>
 </div>
 
@@ -174,7 +180,7 @@
     <p class="lead">Like the early Church, we aspire to live not for ourselves but for the good of our neighbors. We envision serving our city for its flourishing by sharing the love of God in both word and deed. We desire to be people who are more concerned with serving than being served—especially for the welfare of the least among us.</p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image img-responsive center-block featurette-image3" src="images/serving_our_city.jpg" alt="serving our city">
+    <img class="featurette-image img-responsive center-block featurette-image3" src="<?php bloginfo('template_directory');?>/images/serving_our_city.jpg" alt="serving our city">
   </div>
 </div>
 
