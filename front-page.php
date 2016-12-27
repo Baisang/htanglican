@@ -5,17 +5,17 @@
 
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-     <div class="first-slide" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('<?php bloginfo('template_directory');?>/images/welcomecloudy.jpg');">
+     <div class="first-slide" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('<?php bloginfo('template_directory');?>/images/front_banner.jpg');">
         <div class="carousel-caption">
           <div class="light-caption">WELCOME TO</div>
-          <h1>CHURCH OF THE HOLY TRINITY</h1>
-          <div class="sub-caption">God is at work in NE Ohio. Is God calling you to join in this good endeavor?</div>
-          <p><a class="btn btn-lg btn-primary" href="story.html" role="button">Our Story</a></p>
+          <h1>CHURCH OF THE TRANSFIGURATION</h1>
+          <div class="sub-caption">Worship with us Sundays at 10:30am</div>
+          <p><a class="btn btn-lg btn-primary" target="_blank" href="https://goo.gl/maps/SVVDPeEu4JL2" role="button">View Map</a></p>
         </div>
     </div>
   </div>
   <div class="item">
-    <div class="second-slide" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('<?php bloginfo('template_directory');?>/images/chalace_clouded.jpg');">
+    <div class="second-slide" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('<?php bloginfo('template_directory');?>/images/welcomecloudy.jpg');">
       <div class="container">
         <div class="carousel-caption">
           <h1>WHAT IS ANGLICANISM?</h1>
@@ -29,9 +29,9 @@
     <div class="third-slide" style="  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('<?php bloginfo('template_directory');?>/images/Clevelandsk.jpg');">
       <div class="container">
         <div class="carousel-caption">
-          <h2> AN ANGLICAN CHURCH IN GREATER CLEVELAND?</h2>
-          <div class="sub-caption">Why would we plant an Anglican Church in Greater Cleveland?</div>
-          <p><a class="btn btn-lg btn-primary" href="https://vimeo.com/136478802" target="_blank">Watch Video</a></p>
+          <h2>HEAR OUR STORY</h2>
+          <div class="sub-caption">Discover our church's rich history and exciting future.</div>
+          <p><a class="btn btn-lg btn-primary" href="story.html" target="_blank">Our Story</a></p>
         </div>
       </div>
     </div>

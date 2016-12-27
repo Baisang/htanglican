@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Church of the Holy Trinity is an Anglican Church plant founded in Cleveland, Ohio by Rev. Sean Ewing" />
-  <meta name="keywords" content="church, cleveland church, cleveland anglican church, holy trinity cleveland, church of the holy trinity, sean ewing church, holy trinity sean ewing, htanglican, ht anglican cleveland" />
+<meta name="description" content="Anglican Church of the Transfiguration is an Anglican Church in Cleveland, Ohio" />
+  <meta name="keywords" content="church, cleveland church, cleveland anglican church, transfiguration cleveland, church of the transfiguration, sean ewing church, transfiguration sean ewing, clevelandanglican" />
   <meta name="author" content="Brian Sang" />
 
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
   <title>
-    <?php echo is_front_page() ? '' : wp_title('')." | ";?>Church of the Holy Trinity
+    <?php echo is_front_page() ? '' : wp_title('')." | ";?>Anglican Church of the Transfiguration
   </title>
 
   <!-- Bootstrap -->
