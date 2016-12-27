@@ -4,7 +4,7 @@
       <div class="col-md-6">
         <h1 class="head-footer"><i class="fa fa-envelope-o"></i></h1>
         <p class="text-footer">
-          Holy Trinity <br>P.O. Box 672 <br>Gates Mills, OH 44040<br>
+          Church of the Transfiguration <br>2572 MLK Jr. Dr. <br>Cleveland, OH 44104<br>
         (216) 466-2452<br>
         <a href="mailto:sean.a.ewing@gmail.com">sean.a.ewing@gmail.com</a> </p>
       </div>
@@ -12,13 +12,13 @@
         <h1 class="head-footer"><i class="fa fa-users"></i></h1>
         <div class="text-footer"><a href="https://www.facebook.com/htanglican" target="_blank"><i class="fa fa-facebook-official"></i> Facebook </a></div>
         <div class="text-footer"><a href="https://soundcloud.com/holy-trinity-7" target="_blank"><i class="fa fa-soundcloud"></i> SoundCloud</a></div>
-        <div class="text-footer"><a href="" target="_blank"><i class="fa fa-commenting-o"></i> Blog</a></div>
+        <div class="text-footer"><a href="http://clevelandanglican.com/blog" target="_blank"><i class="fa fa-commenting-o"></i> Blog</a></div>
       </div>
     </div>
     <div class="row row-footer">
       <div class="col-md-12">
         <p class="text-footer text-justify">
-          © <?php echo date("Y");?> Church of the Holy Trinity. All Rights Reserved.</p>
+          © <?php echo date("Y");?> Church of the Transfiguration. All Rights Reserved.</p>
       </div>
     </div>
   </div>
