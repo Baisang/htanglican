@@ -1,4 +1,4 @@
-/**
+Jose/**
 Theme Name: htanglican
 Theme Description: TODO
 */
@@ -13,7 +13,7 @@ body {
   font-size: 12px;
   margin-bottom: 3.75em;
   padding-top: 4em;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -98,7 +98,7 @@ li {
   background: white;
   font-size: 1.9em;
   color: white;
-  font-family: 'Josefin Sans';
+  font-family: 'Lato';
   box-sizing:content-box;
 }
 
@@ -131,7 +131,7 @@ body.modal-open {
   color:#253c97;
   vertical-align: middle;
   font-size: .7em;
-  font-family: 'Josefin Sans';
+  font-family: 'Lato';
   margin-top: .5em;
 }
 
@@ -173,7 +173,7 @@ body.modal-open {
 }
 
 .footer h2, h7 {
-  font-family: 'Josefin Sans';
+  font-family: 'Lato';
 }
 
 .text-footer {
@@ -240,24 +240,24 @@ body.modal-open {
 .carousel-caption {
   z-index: 10;
   font-size: 1.1em;
-  font-family: 'Josefin Sans';
+  font-family: 'Lato';
 }
 
 .carousel-caption > h1 {
   font-size: 7em;
-  font-family: 'Josefin Sans';
+  font-family: 'Lato';
   text-shadow: 1px 1px 10px #000000;
 }
 
 .carousel-caption > h2 {
   font-size: 5.5em;
-  font-family: 'Josefin Sans';
+  font-family: 'Lato';
   text-shadow: 1px 1px 10px #000000;
 }
 
 .light-caption {
   font-size: 2.5em;
-  font-family: 'Josefin Sans';
+  font-family: 'Lato';
   font-weight: 300;
   text-shadow: 1px 1px 10px #000000;
 }
@@ -316,7 +316,7 @@ body.modal-open {
   padding-top: 6.5em;
   padding-bottom: 1.25em;
   margin: .5em;
-  font-family: 'Josefin Sans';
+  font-family: 'Lato';
   text-shadow: 1px 1px 10px #000000;
 }
 
@@ -372,27 +372,27 @@ body.modal-open {
   .carousel-caption {
     z-index: 10;
     font-size: 1.1em;
-    font-family: 'Josefin Sans';
+    font-family: 'Lato';
     text-align: center;
   }
 
   .carousel-caption > h1 {
     font-size: 2.75em;
-    font-family: 'Josefin Sans';
+    font-family: 'Lato';
     text-shadow: 1px 1px 10px #000000;
     text-align: center;
   }
 
   .carousel-caption > h2 {
     font-size: 2em;
-    font-family: 'Josefin Sans';
+    font-family: 'Lato';
     text-shadow: 1px 1px 10px #000000;
     text-align: center;
   }
 
   .light-caption {
     font-size: 1em;
-    font-family: 'Josefin Sans';
+    font-family: 'Lato';
     font-weight: 300;
     text-shadow: 1px 1px 10px #000000;
   }
@@ -424,27 +424,27 @@ body.modal-open {
   .carousel-caption {
     z-index: 10;
     font-size: 1.1em;
-    font-family: 'Josefin Sans';
+    font-family: 'Lato';
     text-align: center;
   }
 
   .carousel-caption > h1 {
     font-size: 5em;
-    font-family: 'Josefin Sans';
+    font-family: 'Lato';
     text-shadow: 1px 1px 10px #000000;
     text-align: center;
   }
 
   .carousel-caption > h2 {
     font-size: 4em;
-    font-family: 'Josefin Sans';
+    font-family: 'Lato';
     text-shadow: 1px 1px 10px #000000;
     text-align: center;
   }
 
   .light-caption {
     font-size: 2em;
-    font-family: 'Josefin Sans';
+    font-family: 'Lato';
     font-weight: 300;
     text-shadow: 1px 1px 10px #000000;
   }
@@ -609,7 +609,7 @@ body.modal-open {
   padding-top: 7em;
   text-align:center;
   font-size: 5em;
-  font-family: 'Josefin Sans';
+  font-family: 'Lato';
   text-transform: uppercase;
 }
 
