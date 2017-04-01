@@ -246,6 +246,7 @@ body.modal-open {
 .carousel-caption > h1 {
   font-size: 7em;
   font-family: 'Lato';
+  font-weight: 300;
   text-shadow: 1px 1px 10px #000000;
 }
 
@@ -317,7 +318,8 @@ body.modal-open {
   padding-bottom: 1.25em;
   margin: .5em;
   font-family: 'Lato';
-  text-shadow: 1px 1px 10px #000000;
+  font-weight: 300;
+  text-shadow: 2px 2px 15px #000000;
 }
 
 @media (max-width: 767px) {
@@ -472,17 +474,17 @@ body.modal-open {
 
 .marketing h2 {
   font-weight: normal;
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 
 .marketing .col-lg-4 p {
   margin-right: .625em;
   margin-left: .625em;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .market-btn-text {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 @media (max-width: 767px) {
@@ -610,6 +612,7 @@ body.modal-open {
   text-align:center;
   font-size: 5em;
   font-family: 'Lato';
+  font-weight: 300;
   text-transform: uppercase;
 }
 
