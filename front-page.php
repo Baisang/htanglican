@@ -144,7 +144,7 @@
     <p class="lead">Like the early Church, we aspire to be formed as deep, devoted disciples of Jesus Christ. We don’t want to just be Sunday morning Christians—our desire is to see all areas of our lives submitted to the Lordship of Jesus Christ. We envision our community being formed in the faith handed down to us as well as being formed in key spiritual disciplines that will help us to grow into deeper disciples of Jesus Christ.</p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image img-responsive center-block featurette-image2" src="<?php bloginfo('template_directory');?>/images/father_sean.jpg" alt="Deep Discipleship">
+    <img class="featurette-image img-responsive center-block featurette-image2" src="<?php bloginfo('template_directory');?>/images/readings_banner.jpg" alt="Deep Discipleship">
   </div>
 </div>
 
