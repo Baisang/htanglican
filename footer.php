@@ -15,7 +15,7 @@
       </div>
       <div class="col-md-4">
         <h1 class="head-footer"><i class="fa fa-users"></i></h1>
-        <div class="text-footer"><a href="https://www.facebook.com/htanglican" target="_blank"><i class="fa fa-facebook-official"></i> Facebook </a></div>
+        <div class="text-footer"><a href="https://www.facebook.com/Anglican-Church-of-the-Transfiguration-Cleveland-Ohio-382623758806403" target="_blank"><i class="fa fa-facebook-official"></i> Facebook </a></div>
         <div class="text-footer"><a href="https://soundcloud.com/holy-trinity-7" target="_blank"><i class="fa fa-soundcloud"></i> SoundCloud</a></div>
         <div class="text-footer"><a href="http://clevelandanglican.com/blog" target="_blank"><i class="fa fa-commenting-o"></i> Blog</a></div>
       </div>
