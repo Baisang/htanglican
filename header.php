@@ -45,7 +45,7 @@
           <div class="container-fluid">
             <div class="navbar-header">
               <a class="navbar-brand" href="/">
-                <img class="nav-logo" src="<?php bloginfo('template_directory');?>/images/HolyTrinityLOGOweb.png"></img>
+                <img class="nav-logo" src="<?php bloginfo('template_directory');?>/images/clevelandanglicanlogo.png"></img>
               </a>
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
