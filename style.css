@@ -137,6 +137,8 @@ body.modal-open {
 
 .navbar-nav {
   height: 6.5em;
+  margin-top: 25px;
+  margin-bottom: -30px;
 }
 
 .glyphs {
